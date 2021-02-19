@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="dandy" name="dandy.kodi" version="1.4.2" provider-name="dandy">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/s-barabash/kodi/master/addons/zip/repository.dandy.kodi/addons.xml</info>
+            <datadir zip="true">https://raw.githubusercontent.com/s-barabash/kodi/master/addons/zip/repository.dandy.kodi/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>kodi</summary>
+        <description>dandy kodi</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
